@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- endbuild -->
+  <title>Science Magazine</title>
+</head>
+
+<body>
+
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-2 offset-sm-1 align-self-center">
+                  <a href="./index.html"><img src="img/logo2.gif" class="img-fluid" width="150" height="150"></a>
+                </div>
+                <div class="col-12 col-sm-8">
+                    <h1>Science Magazine</h1>
+                    <p>Science Magazine is a peer-reviewed bimonthly journal that publishes original research papers on all aspects of power engineering (production, transmission and consumption of electricity and heat). Issues of mathematical modeling, IT support and economic analysis in power engineering are also in the scope of our journal. Both experimental and theoretical studies are accepted with preference to those concerning energy saving and ecology issues.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="Navbar">
+              <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./content.html"><span class="fa fa-book fa-lg"></span> Content</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-info fa-lg"></span> Information for </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./infauthors.html">Information for authors</a>
+                      <a class="dropdown-item" href="./infreviewers.html">Information for reviewers</a>
+                      <a class="dropdown-item" href="./infreaders.html">Information for readers</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-comment fa-lg"></span> About us </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./aboutjournal.html">About a journal</a>
+                      <a class="dropdown-item" href="./editorialboard.html">Editorial Board</a>
+                      <a class="dropdown-item" href="./authorbenefits.html">Author benefits</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#" id="loginButton"><span class="fa fa-sign-in"></span> Login</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+          <div class="row-content col-12">
+             <h2>Information for authors</h2>
+             <h4>Preparing your article</h4>
+             <p>Please take care to follow the Royal Society Publishing Instructions for Authors when preparing your article for submission. Our editorial policies can be found here. Please read these carefully before submission, paying particular attention to our ethics, open data and open access policies.</p>
+             <p>There are no length restrictions on submissions to Open Biology though we ask that submissions are as succinct as possible. There are also no charges for colour figures.</p>
+             <p>Continuous line numbering should be used on your submitted manuscript to make it easier for editors and reviewers to assess your work.</p>
+             <p>Manuscripts must be submitted in English, and a number of language editing services are available for authors whose first language is not English. Manuscripts that do not meet the required English language standard (where the quality of the science is obscured by the quality of the language) will be returned to the authors. Authors whose papers are returned on language grounds must provide evidence that a professional language editing service or a native speaker of English have assisted in preparing a revised manuscript. Evidence such as a certificate of editing or a signed letter from a native speaker of English would be acceptable.</p>
+             <h4>Processing your manuscript</h4>
+             <p>All manuscripts are assigned to a specialist member of the Editorial Board, who advises the Subject Editor on the suitability of the manuscript for Open Biology based on scientific quality, interest and importance. Based on this, the Subject Editor decides whether the paper should be sent for full peer-review.</p>
+             <p>The Subject Editors are responsible for all final editorial decisions and make these decisions based on the reports received from the referees and Board Members.</p>
+             <p>Our journal reserves the right to reject a paper if we cannot find referees.</p>
+             <p>If your article is declined by Open Biology on the basis of scope, editors may provide the opportunity to transfer the manuscript and peer review reports to Royal Society Open Science - which considers high-quality, scientifically rigorous original research across the entire range of science.</p>
+             <h4>Promoting your published article</h4>
+             <p>There are a number of ways you can promote your paper after publication to maximise impact. This blog post provides our top tips for ensuring your paper is seen by a wide and relevant audience.</p>
+             <p>Our journal is committed to the efforts undertaken by the Royal Society and Royal Society Publishing to make users of our services aware of and responsive to the challenges posed by unconscious biases. As part of these efforts, the Royal Society has published an In Verba blog post, a guidance PDF, and short video animation to support users in understanding and tackling unconscious bias. Our authors are strongly encouraged to familiarise themselves with these publications when considering submitting to the journal.</p>
+          </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-12">
+                  <h3 class="row justify-content-center">© Science Magazine, 2020</h3>
+               </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              153000, Russian Federation, Ivanovo, Rabfakovskaya str., 34<br>
+		              <i class="fa fa-phone fa-lg"></i> +7 4932 269-000<br>
+		              <i class="fa fa-fax fa-lg"></i> +7 4932 269-000<br>
+		              <i class="fa fa-envelope fa-lg"></i> <a class="email" href="mailto:sciencemagazine@ispu.ru">sciencemagazine@ispu.ru</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                      <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                      <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                      <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                      <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                      <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                      <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

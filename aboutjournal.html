@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- endbuild -->
+  <title>Science Magazine</title>
+</head>
+
+<body>
+
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-2 offset-sm-1 align-self-center">
+                  <a href="./index.html"><img src="img/logo2.gif" class="img-fluid" width="150" height="150"></a>
+                </div>
+                <div class="col-12 col-sm-8">
+                    <h1>Science Magazine</h1>
+                    <p>Science Magazine is a peer-reviewed bimonthly journal that publishes original research papers on all aspects of power engineering (production, transmission and consumption of electricity and heat). Issues of mathematical modeling, IT support and economic analysis in power engineering are also in the scope of our journal. Both experimental and theoretical studies are accepted with preference to those concerning energy saving and ecology issues.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="Navbar">
+              <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./content.html"><span class="fa fa-book fa-lg"></span> Content</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-info fa-lg"></span> Information for </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./infauthors.html">Information for authors</a>
+                      <a class="dropdown-item" href="./infreviewers.html">Information for reviewers</a>
+                      <a class="dropdown-item" href="./infreaders.html">Information for readers</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-comment fa-lg"></span> About us </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./aboutjournal.html">About a journal</a>
+                      <a class="dropdown-item" href="./editorialboard.html">Editorial Board</a>
+                      <a class="dropdown-item" href="./authorbenefits.html">Author benefits</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#" id="loginButton"><span class="fa fa-sign-in"></span> Login</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+          <div class="row-content col-12">
+             <h2>About a journal</h2>
+             <p>
+               <ul>
+                  <li>The journal was established in 2001</li>
+                  <li>Periodicity: bimonthly</li>
+                  <li>ISSN 2072-2672</li>
+                  <li>The articles are peer reviewed</li>
+                  <li>Information about published papers is sent to the Russian Science Citation Index</li>
+                  <li>The journal is registered in Ulrich’s periodicals directory (USA)</li>
+              </ul>
+             </p>
+          </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-12">
+                  <h3 class="row justify-content-center">© Science Magazine, 2020</h3>
+               </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              153000, Russian Federation, Ivanovo, Rabfakovskaya str., 34<br>
+		              <i class="fa fa-phone fa-lg"></i> +7 4932 269-000<br>
+		              <i class="fa fa-fax fa-lg"></i> +7 4932 269-000<br>
+		              <i class="fa fa-envelope fa-lg"></i> <a class="email" href="mailto:sciencemagazine@ispu.ru">sciencemagazine@ispu.ru</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                      <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                      <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                      <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                      <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                      <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                      <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
